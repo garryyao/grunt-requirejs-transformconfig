@@ -1,0 +1,44 @@
+{
+  "name": "grunt-requirejs-transformconfig",
+  "version": "0.0.1",
+  "description": "Grunt plugin for transforming RequireJS configuration file.",
+  "homepage": "http://github.com/garryyao/grunt-requirejs-transformconfig",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:garryyao/grunt-requirejs-transformconfig.git"
+  },
+  "bugs": "https://github.com/garryyao/grunt-requirejs-transformconfig/issues",
+  "author": {
+    "name": "Garry Yao",
+    "email": "yaojun85@gmail.com"
+  },
+  "keywords": [
+    "grunt",
+    "requirejs",
+    "config",
+    "transform"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.0rc2",
+    "load-grunt-tasks": "~0.2.0",
+    "jshint-stylish": "~0.1.3"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "requirejs": "~2.1.9"
+  }
+}
