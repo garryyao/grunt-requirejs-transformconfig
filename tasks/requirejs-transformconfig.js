@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 			});
 
 			// defer the completion after the require to avoid weird race condition in r.js
-			process.nextTick(done);
+			setTimeout(done);
 		});
 	});
 
