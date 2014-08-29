@@ -34,7 +34,8 @@ module.exports = function(grunt) {
 				grunt.log.writeln('RequireJS config file "' + group.dest + '" created.');
 			});
 
-			done();
+			// defer the completion after the require to avoid weird race condition in r.js
+			process.nextTick(done);
 		});
 	});
 
