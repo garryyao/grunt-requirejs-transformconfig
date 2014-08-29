@@ -1,6 +1,6 @@
 {
   "name": "grunt-requirejs-transformconfig",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Grunt plugin for transforming RequireJS configuration file.",
   "homepage": "http://github.com/garryyao/grunt-requirejs-transformconfig",
   "repository": {
